@@ -2,8 +2,8 @@
   --color-brand--1: #ffb545;
   --color-brand--2: #00c46a;
 
-  --color-dark--1: #2d3439;
-  --color-dark--2: #42484d;
+  --color-dark--1: #000000;
+  --color-dark--2: #000000;
   --color-light--1: #aaa;
   --color-light--2: #ececec;
   --color-light--3: rgb(214, 222, 224);
@@ -48,11 +48,24 @@ a:visited {
   display: flex;
   flex-direction: column;
 }
+.nl{
+  border-left: 1000px;
+}
 
 .logo {
-  height: 5.2rem;
+  height: 10.2rem;
   align-self: center;
-  margin-bottom: 4rem;
+  margin-bottom: 0rem;
+}
+
+.banner {
+  font-family: 'Open Sans', sans-serif;
+  font-style:italic;
+  font-size: 2rem;
+  color:#733ec2;
+  /* height: 10.2rem; */
+  align-self: center;
+  margin-bottom: 0rem;
 }
 
 .workouts {
